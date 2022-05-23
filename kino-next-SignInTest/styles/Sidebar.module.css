@@ -1,0 +1,35 @@
+.right-container-content-article-small {
+  margin-bottom: 13px;
+  width: 315px;
+  height: 52px;
+
+  background: #F5B350;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
+
+.right-container-content-article-small p{
+  margin: auto;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+}
+
+.right-container-content-calendar {
+  margin-bottom: 13px;
+  width: 315px;
+  min-height: 540px;
+  background-color: #E7D0C0;
+  text-align: center;
+}
+
+.right-container-content-calendar ul {
+  margin: 0;
+  padding: 2px 10px;
+  list-style-type: none;
+}
+
+.title {
+  font-weight: bold;
+}

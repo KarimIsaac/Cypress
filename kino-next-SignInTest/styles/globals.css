@@ -1,0 +1,98 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: #401810;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  max-width: 1100;
+  margin: 0 auto;
+}
+
+.header-logo-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 35px auto;
+  cursor: pointer;
+}
+
+.menu-container, 
+.menu-container > nav {
+  width: 100%;
+  max-width: 1100px;
+  padding-top: 1px;
+  background-color: #F5B350;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.menu-container{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.menu-container > div{
+  width: 100%;
+  padding: 0 12%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+
+.login-meny{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: red;
+}
+
+.menu-link,
+.login-meny-link {
+  margin: 0;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.login-meny-link{
+  padding: 10px;
+}
+
+.hero-ad-container {
+  margin: 20px auto;
+  width: 100%;
+  max-width: 1100px;
+  height: 200px;
+  background-color: rgba(219, 219, 219, 0.500);
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #F5B350;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
